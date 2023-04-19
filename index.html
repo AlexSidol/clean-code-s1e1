@@ -17,28 +17,28 @@
     </a>
   </header>
   <main class="container">
-    <section class="add ">
-      <label for="new-task" class="add__title">Add Item</label>
+    <section class="add">
+      <label for="addTask" class="add__title">Add Item</label>
       <div class="add__wrapper">
-        <input id="new-task" class="input" type="text">
+        <input id="addTask" class="input" type="text">
         <button class="btn">Add</button>
       </div>
     </section>
-    <section class="todo ">
+    <section class="todo">
       <h3 class="todo__title">Todo</h3>
       <ul id="todoList" class="todo__list">
-        <li class="todo__item">
-          <input type="checkbox" class="todo__input-checkbox">
-          <label class="label__title ">Pay Bills</label>
+        <li class="list-item">
+          <input type="checkbox" class="input-checkbox">
+          <label class="label-title">Pay Bills</label>
           <input type="text" class="input">
           <button class="btn edit">Edit</button>
           <button class="btn delete">
             <img class="btn-delete__img" src="./remove.svg">
           </button>
         </li>
-        <li class="todo__item editMode">
-          <input type="checkbox" class="todo__input-checkbox">
-          <label class="label__title ">Go Shopping</label>
+        <li class="list-item editMode">
+          <input type="checkbox" class="input-checkbox">
+          <label class="label-title ">Go Shopping</label>
           <input type="text" value="Go Shopping" class="input ">
           <button class="btn edit">Save</button>
           <button class="btn delete">
@@ -46,11 +46,13 @@
           </button>
         </li>
       </ul>
-      <h3 class="completed__title">Completed</h3>
-      <ul id="completed-tasks">
-        <li class="todo__item">
-          <input type="checkbox" checked class="todo__input-checkbox">
-          <label class="label__title ">See the Doctor</label>
+    </section>
+    <section class="done">
+      <h3 class="done__title">Completed</h3>
+      <ul id="doneList">
+        <li class="list-item">
+          <input type="checkbox" checked class="input-checkbox">
+          <label class="label-title ">See the Doctor</label>
           <input type="text" class="input">
           <button class="btn edit">Edit</button>
           <button class="btn delete">

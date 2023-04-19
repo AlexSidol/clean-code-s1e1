@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 
-
 <body>
   <header class="header">
     <img class="header__img" alt="The Eisenhower Matrix" src="./eisenhower-matrix.jpg">
@@ -17,6 +16,7 @@
     </a>
   </header>
   <main>
+    <h1 class="main-title">Useful ToDo App</h1>
     <section class="add container">
       <label for="addTask" class="add__title">Add Item</label>
       <div class="add__wrapper">
@@ -25,7 +25,7 @@
       </div>
     </section>
     <section class="todo container">
-      <h3 class="todo__title">Todo</h3>
+      <h2 class="todo__title">Todo</h2>
       <ul id="todoList" class="todo__list">
         <li class="list-item">
           <input type="checkbox" class="input-checkbox">
@@ -48,7 +48,7 @@
       </ul>
     </section>
     <section class="done container">
-      <h3 class="done__title">Completed</h3>
+      <h2 class="done__title">Completed</h2>
       <ul id="doneList" class="done__list">
         <li class="list-item">
           <input type="checkbox" checked class="input-checkbox">
@@ -62,9 +62,7 @@
       </ul>
     </section>
   </main>
-
-
-  <script src="app.js"></script>
+  <script defer src="app.js"></script>
 </body>
 
 </html>
